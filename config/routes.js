@@ -40,6 +40,10 @@ module.exports.routes = {
     controller: "Users",
     action: "getAuthUser"
   },
+ 'GET /references': {
+    controller: "References",
+    action: "getList"
+  },
   'POST /users/avatars': {
     controller: "Users",
     action: "uploadAvatar"
